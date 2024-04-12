@@ -1,7 +1,9 @@
 
-namespace O2.cars.booking.core.dto;
+using O2.cars.booking.core.common;
 
-public  class AuthDto
+namespace O2.cars.booking.core.responses;
+
+public class LoginResponse : BaseResponse
 {
     public string Lastname { get; set; }
     public string Firstname { get; set; }
